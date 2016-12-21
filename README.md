@@ -2,7 +2,6 @@
 **Authors: Yizhou Wang, Jiechao Gao, Xing Yuan**
 
 This is a README file for our big data analytics final project open source codings.
-
 The software and platforms used for this project are varying because of different purposes of applications. 
 
 ## Recommender System based on mahout
@@ -42,5 +41,7 @@ Result visualization is shown on IBM System G. Use System G to load csv files an
 ## Reference: 
 
 [1] GitHub open source: https://github.com/lanxuezaipiao/movie-recommendation-system
+
 [2] GitHub open source: https://github.com/Improving-Movie-Recommender-System-with-User-Behavior-changes-and-Demographics
+
 [3] GitHub open source: https://github.com/sripathikrishnan/movie-recommendation-java8
