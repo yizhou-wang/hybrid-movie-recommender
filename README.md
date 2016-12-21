@@ -4,6 +4,9 @@
 This is a README file for our big data analytics final project open source codings.
 
 The software and platforms used for this project are varying because of different purposes of applications. 
+
+## Recommender System based on mahout
+
 The recommender construction used Java programming language under mahout dependency. The platform for this part is Eclipse Neon 1a, with built mahout dependency. Used mahout sources are listed below.
 
 	org.apache.mahout.cf.taste.common.TasteException
@@ -22,9 +25,9 @@ The recommender construction used Java programming language under mahout depende
 
 There is a data folder including 3 data files. 
 
- 1. data.csv 		<——> 	ydata-ymovies-user-movie-ratings-train-v1_0.txt
- 2. demographics.txt 	<——> 	ydata-ymovies-user-demographics-v1_0.txt
- 3. synopsis 		<——> 	ydata-ymovies-movie-content-descr-v1_0.txt
+ 1. data.csv 		<—> 	ydata-ymovies-user-movie-ratings-train-v1_0.txt
+ 2. demographics.txt 	<—> 	ydata-ymovies-user-demographics-v1_0.txt
+ 3. synopsis 		<—> 	ydata-ymovies-movie-content-descr-v1_0.txt
 
 We run this coding and this is the main function RecommendationEngine. We can see there are three models, DemographicModel which means User-Based Model, SynopsisModel which means Content-Based Model, and FileDataModel which means Data Model. 
 
@@ -32,4 +35,10 @@ To make the demo simple, we can enter the test number of users here. I set this 
 
 In each loop, we use the model above to find neighbors of the user, then write the recommendation results into a csv file. This file will be used for data visualization in System G, because System G need to load two csv files as nodes and edges.
 
+## Results Visualization based on System G
+
 Result visualization is shown on IBM System G. Use System G to load csv files and use gShell command to show different properties of the recommendation results. 
+
+### Reference: 
+
+This part of code is based on the github open source ar https://github.com/Improving-Movie-Recommender-System-with-User-Behavior-changes-and-Demographics
