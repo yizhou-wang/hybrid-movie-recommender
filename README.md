@@ -39,6 +39,8 @@ In each loop, we use the model above to find neighbors of the user, then write t
 
 Result visualization is shown on IBM System G. Use System G to load csv files and use gShell command to show different properties of the recommendation results. 
 
-### Reference: 
+## Reference: 
 
-This part of code is based on the github open source ar https://github.com/Improving-Movie-Recommender-System-with-User-Behavior-changes-and-Demographics
+[1] GitHub open source: https://github.com/lanxuezaipiao/movie-recommendation-system
+[2] GitHub open source: https://github.com/Improving-Movie-Recommender-System-with-User-Behavior-changes-and-Demographics
+[3] GitHub open source: https://github.com/sripathikrishnan/movie-recommendation-java8
